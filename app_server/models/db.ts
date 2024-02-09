@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const connectString = /*"mongodb+srv://<username>:<password>@cluster0.vmkcimy.mongodb.net/?retryWrites=true&w=majority"*/ "mongodb+srv://willowesapphire:ss8U159c6FzgiC1E@cluster0.vmkcimy.mongodb.net/?retryWrites=true&w=majority"
+const connectString = // your string here
 
 mongoose.connect(connectString);
 
